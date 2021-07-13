@@ -309,85 +309,109 @@
 
             <div class="qualification__container container">
                 <div class="qualification__tabs">
-                    <div class="qualification__button button--flex">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
                         <i class="uil uil-graduation-cap graduation__icon"></i>
                         Education
                     </div>
 
-                    <div class="qualification__button button--flex">
+                    <div class="qualification__button button--flex" data-target='#work'>
                         <i class="uil uil-briefcase-alt graduation__icon"></i>
                         Work
                     </div>
 
                 </div>
 
-                <div class="qualification__sections">
-                    <!-- Qualification-Content-1 -->
-                    <div class="qualification__content">
-                        <!-- Qualification-1 -->
+                <div class="qualification__section">
+                    <!-- ===================Qualification Content 1========================== -->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!-- ===================Qualification 1========================== -->
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">Computer Engineer</h3>
+                                <h3 class="qualification__title">Computer Science Engineering</h3>
                                 <span class="qualification__subtitle">Galgotias University</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2017 - 2021
-                                </div>
+                                <br>
+                                <i class="uil uil-calendar-alt"></i>
+                                2017-2021
                             </div>
+
+
                             <div>
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
                         </div>
-                        <!-- Qualification-1 -->
+
+                        <!-- ===================Qualification 2========================== -->
                         <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
                             <div>
                                 <h3 class="qualification__title">12th</h3>
                                 <span class="qualification__subtitle">Shivam International</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2015 - 2017
-                                </div>
-                            </div>
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
+                                <br>
+                                <i class="uil uil-calendar-alt"></i>
+                                2015-2017
                             </div>
                         </div>
-                        <!-- Qualification-1 -->
+
+
+                        <!-- ===================Qualification 3========================== -->
                         <div class="qualification__data">
                             <div>
                                 <h3 class="qualification__title">10th</h3>
-                                <span class="qualification__subtitle">St. Michael High</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2005 - 2015
-                                </div>
+                                <span class="qualification__subtitle">St. Michael High</span><br>
+                                <i class="uil uil-calendar-alt"></i>
+                                2005-2015
                             </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- ===================Qualification Content 2========================== -->
+                    <div class="qualification__content" data-content id="work">
+                        <!-- ===================Qualification 1========================== -->
+                        <div class="qualification__data">
+                            <div></div>
+
                             <div>
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
+
+                            <div>
+                                <h3 class="qualification__title">Angular Intern</h3>
+                                <span class="qualification__subtitle">Urbankhet</span>
+                                <br>
+                                <i class="uil uil-calendar-alt"></i>
+                                2019
+                            </div>
                         </div>
-                    </div>
-                    <!-- Qualification-Content-2 -->
-                    <div class="qualification__content">
-                        <!-- Qualification-1 -->
+                        <!-- ===================Qualification 2========================== -->
                         <div class="qualification__data">
                             <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
+                                <h3 class="qualification__title">Wipro</h3>
+                                <span class="qualification__subtitle">Project Engineer</span><br>
+                                <i class="uil uil-calendar-alt"></i>
+                                2021-Ongoing
                             </div>
                             <div>
-                                <h3 class="qualification__title">Software Engineer</h3>
-                                <span class="qualification__subtitle">Wipro</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2021 - Today
-                                </div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
                             </div>
                         </div>
-                        
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -398,6 +422,124 @@
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
 
+            <h2 class="services__title">Services</h2>
+            <span class="section__subtitle">What I offer</span>
+
+            <div class="services__container container grid">
+                <!-- =============================Services 1========================== -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">UI/UX <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Webpage development</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- =============================Services 2========================== -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">UI/UX <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Webpage development</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- =============================Services 1========================== -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">UI/UX <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Webpage development</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
 
