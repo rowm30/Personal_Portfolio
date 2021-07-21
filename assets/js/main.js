@@ -130,8 +130,6 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
             slidesPerView: 2,
         }
     }
-    // kdjsfghjkdshfjkdsh
-    // kdjsfghjkdshfjkdsh
   });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
