@@ -1302,7 +1302,11 @@ img{
         width: 460px;
     }
 
+    .mk1{
+        margin-left: 15%;
+    }
+
     /* .contact__inputs{
         grid-template-columns: repeat(2,1fr);
-    }
-} */
+    }*/
+}
