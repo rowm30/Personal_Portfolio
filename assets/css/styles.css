@@ -305,7 +305,7 @@ img{
 .home__blob{
     width:200px;
     fill: var(--first-color);
-    margin-left: 15%;
+    /* margin-left: 5%; */
 }
 
 .home__blob-img{
